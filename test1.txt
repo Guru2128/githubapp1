@@ -1,2 +1,2 @@
 new file 1
-new add 2
+new Text 1
