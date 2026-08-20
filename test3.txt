@@ -1,6 +1,5 @@
 New File Added3.
 New file.
 18/8/26 changes.
-newly
 git add test3.txt
 git commit -m "test test3"
