@@ -4,4 +4,3 @@ New file.
 newly added today.
 git add test1.txt
 git commit -m "test test1"
-newly
