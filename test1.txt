@@ -44,4 +44,11 @@ It helps with code reusability.
 
 4. Polymorphism – One method or interface can have different implementations.
  In C#, it can be achieved through method overloading (compile-time) and 
- method overriding (runtime).
+ method overriding (runtime
+
+Encapsulation vs Abstraction
+Encapsulation	Abstraction
+Protects/hides data	Hides implementation details
+Focuses on how data is accessed	Focuses on what functionality is exposed
+Uses access modifiers	Uses interfaces/abstract classes
+Example: private balance	Example: IPayment.Pay()
