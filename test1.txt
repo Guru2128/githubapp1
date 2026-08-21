@@ -12,10 +12,15 @@ OOP stands for Object-Oriented Programming. It is a programming approach where w
 
 In C#, OOP mainly has four pillars: Encapsulation, Abstraction, Inheritance, and Polymorphism.
 
-1. Encapsulation – Binding data and methods together inside a class and controlling access using access modifiers like private, public, and protected.
+1. Encapsulation – Binding data and methods together inside a class and 
+controlling access using access modifiers like private, public, and protected.
 
-2. Abstraction – Hiding implementation details and exposing only the required functionality. In C#, we achieve this using interfaces and abstract classes.
+2. Abstraction – Hiding implementation details and exposing only the required functionality. 
+In C#, we achieve this using interfaces and abstract classes.
 
-3. Inheritance – One class can acquire the properties and methods of another class. It helps with code reusability.
+3. Inheritance – One class can acquire the properties and methods of another class. 
+It helps with code reusability.
 
-4. Polymorphism – One method or interface can have different implementations. In C#, it can be achieved through method overloading (compile-time) and method overriding (runtime).
+4. Polymorphism – One method or interface can have different implementations.
+ In C#, it can be achieved through method overloading (compile-time) and 
+ method overriding (runtime).
