@@ -14,7 +14,28 @@ In C#, OOP mainly has four pillars: Encapsulation, Abstraction, Inheritance, and
 
 1. Encapsulation – Binding data and methods together inside a class and 
 controlling access using access modifiers like private, public, and protected.
-
+public class BankAccount
+{
+    // Data is hidden from outside
+    private decimal balance;
+// Controlled way to modify balance
+    public void Deposit(decimal amount)
+    {
+        if (amount > 0)
+        {
+            balance += amount;
+        }
+    }
+    // Controlled way to read balance
+    public decimal GetBalance()
+    {
+        return balance;
+    }
+}
+Using the class:
+BankAccount account = new BankAccount();
+account.Deposit(1000);
+Console.WriteLine(account.GetBalance());
 2. Abstraction – Hiding implementation details and exposing only the required functionality. 
 In C#, we achieve this using interfaces and abstract classes.
 
