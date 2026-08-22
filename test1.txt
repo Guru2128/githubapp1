@@ -51,6 +51,7 @@ public interface IPayment
         // Check balance
         // Process transaction
         // Save transaction
+        
     void Pay();
 }
 
