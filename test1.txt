@@ -39,7 +39,7 @@ Using the class:
 BankAccount account = new BankAccount();
 account.Deposit(1000);
 Console.WriteLine(account.GetBalance());
-
+------------------------------------------------------------------------------
 2. Abstraction – Hiding implementation details and exposing only the required functionality. 
 In C#, we achieve this using interfaces and abstract classes.
 
