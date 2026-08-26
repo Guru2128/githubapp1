@@ -43,14 +43,6 @@ account.Deposit(1000);
 Console.WriteLine(account.GetBalance());
 ----------------------------------------------------------------------------------------------
 
-
-3. Inheritance – One class can acquire the properties and methods of another class. 
-It helps with code reusability.
-
-4. Polymorphism – One method or interface can have different implementations.
- In C#, it can be achieved through method overloading (compile-time) and 
- method overriding (runtime
-
 Encapsulation vs Abstraction
 Encapsulation	                          Abstraction
 Protects/hides  data       	               Hides implementation details
