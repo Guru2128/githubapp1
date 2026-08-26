@@ -4,6 +4,7 @@ New file.
 git add test2.txt
 git commit -m "test test2"
 add.
+------------------------------------------------------------------------
 
 2. Abstraction – Hiding implementation details and exposing only the required functionality. 
 In C#, we achieve this using interfaces and abstract classes.
