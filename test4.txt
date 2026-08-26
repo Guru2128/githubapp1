@@ -3,3 +3,28 @@ New File Added4.
 git add test4.txt
 git commit -m "test test4"
 add.
+-----------------------------------------------------------
+4. Polymorphism – Polymorphism means “one name, many forms.”
+One method or interface can have different implementations.
+Types:
+Compile-time → Method Overloading
+Run-time → Method Overriding
+
+Example :
+class Animal
+{
+    public virtual void Sound()
+    {
+        Console.WriteLine("Animal sound");
+    }
+}
+class Dog : Animal
+{
+    public override void Sound()
+    {
+        Console.WriteLine("Dog barks");
+    }
+}
+
+“Polymorphism allows us to use the same method name with different implementations. 
+In C#, it is achieved through method overloading and method overriding.”
