@@ -4,3 +4,7 @@ New file.
 git add test3.txt
 git commit -m "test test3"
 add.
+
+-------------------------
+3. Inheritance – One class can acquire the properties and methods of another class. 
+It helps with code reusability.
