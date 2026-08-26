@@ -32,7 +32,7 @@ public class CreditCardPayment : IPayment
         Console.WriteLine("Payment done using Credit Card");
     }
 }
----------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 Abstract Class Example
 public abstract class Animal
 {
