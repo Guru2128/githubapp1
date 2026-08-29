@@ -3,7 +3,9 @@ New file.
 18/8/26 changes.
 git add test2.txt
 git commit -m "test test2"
-add.
+git push origin main
+add. //if we are use this all the page it will added. 
+
 ------------------------------------------------------------------------
 
 2. Abstraction – Hiding implementation details and exposing only the required functionality. 
