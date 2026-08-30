@@ -1,8 +1,9 @@
 New File Added4.
 18/8/26 changes.
-git add test4.txt
-git commit -m "test test4"
 add.
+git add test4.txt
+git commit -m "File Updated"
+git push origin main
 -----------------------------------------------------------
 4. Polymorphism – Polymorphism means “one name, many forms.”
 One method or interface can have different implementations.
@@ -27,4 +28,46 @@ class Dog : Animal
 }
 
 “Polymorphism allows us to use the same method name with different implementations. 
-In C#, it is achieved through method overloading and method overriding.”
+------------------------------------------------------------------------------------------
+Method Overloading – Definition
+Method Overloading means having multiple methods with the same name 
+but different parameters in the same class.
+Example :
+class Calculator
+{
+    public int Add(int a, int b)
+    {
+        return a + b;
+    }
+
+    public int Add(int a, int b, int c)
+    {
+        return a + b + c;
+    }
+
+    public double Add(double a, double b)
+    {
+        return a + b;
+    }
+}
+--------------------------------------------------
+Method Overriding – Definition
+
+Method Overriding means a child class provides
+ its own implementation of a method that is already defined in the parent class.
+ Example :
+ class Animal
+{
+    public virtual void Sound()
+    {
+        Console.WriteLine("Animal makes a sound");
+    }
+}
+
+class Dog : Animal
+{
+    public override void Sound()
+    {
+        Console.WriteLine("Dog barks");
+    }
+}
