@@ -7,6 +7,8 @@ git push origin main
 -----------------------------------------------------------
 4. Polymorphism – Polymorphism means “one name, many forms.”
 One method or interface can have different implementations.
+“Polymorphism allows us to use the same method name with different implementations."
+
 Types:
 Compile-time → Method Overloading
 Run-time → Method Overriding
@@ -27,7 +29,7 @@ class Dog : Animal
     }
 }
 
-“Polymorphism allows us to use the same method name with different implementations. 
+
 ------------------------------------------------------------------------------------------
 Method Overloading – Definition
 Method Overloading means having multiple methods with the same name 
