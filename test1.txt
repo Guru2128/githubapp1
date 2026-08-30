@@ -2,9 +2,11 @@ New File Added1.
 New file.
 18/8/26 changes.
 newly added today.
+
 git add test1.txt
-git commit -m "test test1"
-add.
+git commit -m "File Updated"
+git push origin main 
+
 ----------------------------------------------------------------------------------------------
 Interview Answer :
 OOP stands for Object-Oriented Programming. 
