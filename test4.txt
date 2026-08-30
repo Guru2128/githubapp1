@@ -53,8 +53,13 @@ class Calculator
 --------------------------------------------------
 Method Overriding – Definition
 
-Method Overriding means a child class provides
- its own implementation of a method that is already defined in the parent class.
+Method Overriding means:
+Same method name ✔️
+Same parameters ✔️
+Same return type (generally) ✔️
+Parent method must be virtual, abstract, or already override
+Child method uses override
+
  Example :
  class Animal
 {
@@ -71,3 +76,4 @@ class Dog : Animal
         Console.WriteLine("Dog barks");
     }
 }
+--------------------------------------------------------------------
