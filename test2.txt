@@ -1,10 +1,12 @@
 New File Added2.
 New file.
 18/8/26 changes.
-git add test2.txt
-git commit -m "test test2"
-git push origin main
+
 add. //if we are use this all the page it will added. 
+
+git add test2.txt
+git commit -m "File Updated"
+git push origin main
 
 ------------------------------------------------------------------------
 
