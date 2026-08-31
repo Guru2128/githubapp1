@@ -1,9 +1,10 @@
 New File Added3.
 New file.
 18/8/26 changes.
+
 git add test3.txt
-git commit -m "test test3"
-add.
+git commit -m "File Updated"
+git push origin main
 
 -------------------------
 3. Inheritance – One class can acquire the properties and methods of another class. 
