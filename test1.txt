@@ -25,7 +25,7 @@ public class BankAccount
 {
     // Data is hidden from outside
     private decimal balance;
-// Controlled way to modify balance
+    // Controlled way to modify balance
     public void Deposit(decimal amount)
     {
         if (amount > 0)
