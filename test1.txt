@@ -6,7 +6,7 @@ newly added today.
 
 git add test1.txt
 git commit -m "File Updated"
-git push origin main 
+git push origin main
 
 ----------------------------------------------------------------------------------------------
 Interview Answer :
@@ -47,8 +47,9 @@ Console.WriteLine(account.GetBalance());
 ----------------------------------------------------------------------------------------------
 
 Encapsulation vs Abstraction
-Encapsulation	                          Abstraction
-Protects/hides  data       	               Hides implementation details
+    Encapsulation	                          Abstraction
+
+Protects/hides  data       	            Hides implementation details
 Focuses on how data is accessed	        Focuses on what functionality is exposed
 Uses access modifiers	                Uses interfaces/abstract classes
 Example: private balance            	Example: IPayment.Pay()
