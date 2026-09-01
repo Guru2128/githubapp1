@@ -54,6 +54,6 @@ public class Dog : Animal
         Console.WriteLine("Dog says Bark");
     }
 }
-Animal animal = new Dog();
+Animal animal = new Dog(); //you can't crete object in abstract class.
 animal.MakeSound();
 animal.Eat();
