@@ -38,22 +38,34 @@ public class CreditCardPayment : IPayment
 }
 --------------------------------------------------------------------------------------
 Abstract Class Example
-public abstract class Animal
+using System;
+abstract class Animal
 {
+    // Abstract method
     public abstract void MakeSound();
 
-    public void Eat()
+    // Normal method
+    public void Sleep()
     {
-        Console.WriteLine("Animal is eating");
+        Console.WriteLine("Animal is sleeping");
     }
 }
-public class Dog : Animal
+class Dog : Animal
 {
+    // Implementing abstract method
     public override void MakeSound()
     {
-        Console.WriteLine("Dog says Bark");
+        Console.WriteLine("Dog barks");
     }
 }
-Animal animal = new Dog(); //you can't crete object in abstract class.
-animal.MakeSound();
-animal.Eat();
+class Program
+{
+    static void Main()
+    {
+        Animal dog = new Dog();  //you can't crete object in abstract class.
+
+        dog.MakeSound();
+        dog.Sleep();
+    }
+}
+-------------------------------------------------------------
