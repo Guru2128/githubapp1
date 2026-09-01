@@ -29,7 +29,6 @@ public interface IPayment
         
     void Pay();
 }
-
 public class CreditCardPayment : IPayment
 {
     public void Pay()
