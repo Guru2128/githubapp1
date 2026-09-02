@@ -15,10 +15,10 @@ git push origin main
 In C#, we achieve this using interfaces and abstract classes.
 
 Interface → defines what to do
-Class → defines how to do it
+Class     → defines how to do it
 Hiding the implementation details → Abstraction
  
-interface :
+Interface :
 public interface IPayment
 {
       // Validate card
