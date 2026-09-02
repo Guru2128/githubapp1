@@ -54,3 +54,5 @@ Protects/hides  data       	            Hides implementation details
 Focuses on how data is accessed	        Focuses on what functionality is exposed
 Uses access modifiers	                Uses interfaces/abstract classes
 Example: private balance            	Example: IPayment.Pay()
+
+-------------------------------------------------------------------------------
