@@ -1,3 +1,11 @@
 git add test5.txt
-git commit -m "New file"
+git commit -m "File Updated"
 git push origin main
+
+-----------------------------
+SOLID Principles in C#
+S → Single responsibility
+O → Open for extension, closed for modification
+L → Child should safely replace parent
+I → Small, focused interfaces
+D → Depend on abstractions
