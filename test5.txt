@@ -9,3 +9,27 @@ O → Open for extension, closed for modification
 L → Child should safely replace parent
 I → Small, focused interfaces
 D → Depend on abstractions
+
+SOLID is a set of 5 object-oriented design principles that help us write code that is maintainable,
+ flexible, testable, and easier to extend.
+1.S — Single Responsibility Principle (SRP)
+A class should have only one reason to change.
+public class UserService
+{
+    public void CreateUser()
+    {
+    }
+}
+public class EmailService
+{
+    public void SendEmail()
+    {
+    }
+}
+public class ReportService
+{
+    public void GenerateReport()
+    {
+    }
+}
+---------------------------------------------------------------------------
