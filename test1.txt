@@ -9,7 +9,7 @@ git add test1.txt
 git commit -m "File Updated"
 git push origin main
 
-----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 Interview Answer :
 OOP stands for Object-Oriented Programming. 
 It is a programming approach where we organize the application around classes and objects.
@@ -45,7 +45,7 @@ BankAccount account = new BankAccount();
 account.Deposit(1000);
 Console.WriteLine(account.GetBalance());
 
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 Encapsulation vs Abstraction
     Encapsulation	                          Abstraction
@@ -55,4 +55,4 @@ Focuses on how data is accessed	        Focuses on what functionality is exposed
 Uses access modifiers	                Uses interfaces/abstract classes
 Example: private balance            	Example: IPayment.Pay()
 
-----------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
