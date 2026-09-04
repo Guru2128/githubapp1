@@ -7,7 +7,7 @@ git add test4.txt
 git commit -m "File Updated"
 git push origin main
 
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 4. Polymorphism – Polymorphism means “one name, many forms.”
 One method or interface can have different implementations.
 “Polymorphism allows us to use the same method name with different implementations."
@@ -55,7 +55,7 @@ class Calculator
         return a + b;
     }
 }
------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 Method Overriding – Definition
 
 Method Overriding means:
@@ -73,7 +73,6 @@ Child method uses override
         Console.WriteLine("Animal makes a sound");
     }
 }
-
 class Dog : Animal
 {
     public override void Sound()
@@ -82,4 +81,4 @@ class Dog : Animal
     }
 }
 
--------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
