@@ -9,7 +9,7 @@ git push origin main
 
 31-08-2026 ->read
 01-09-2026 ->read
-------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
 2. Abstraction – Hiding implementation details and exposing only the required functionality. 
 In C#, we achieve this using interfaces and abstract classes.
@@ -36,7 +36,7 @@ public class CreditCardPayment : IPayment
         Console.WriteLine("Payment done using Credit Card");
     }
 }
---------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 Abstract Class Example
 using System;
 abstract class Animal
@@ -68,4 +68,4 @@ class Program
         dog.Sleep();
     }
 }
--------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
