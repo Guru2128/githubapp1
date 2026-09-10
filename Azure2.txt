@@ -1,0 +1,30 @@
+git add Azure2.txt
+git commit -m "File Added"
+git push origin main
+
+-----------------
+Part 2 :
+Link : 
+ https://www.youtube.com/watch?v=9RhE0mcP1nU&list=PLPLf8iqkntdOCjsCNArF0WNWEZ4PF5IxC&index=2
+
+ *Topics Covered* :
+🔹 Azure Regions — what they are, how to choose the right one, and why it matters
+🔹 Availability Zones — physically separate data centers within a region for 99.99% SLA
+🔹 Region Pairs — staggered maintenance and disaster recovery between paired regions
+🔹 The Azure Resource Hierarchy — Management Groups → Subscriptions → Resource Groups → Resources
+🔹 Azure Resource Manager (ARM) — the control plane behind every portal click, CLI command, and template
+🔹 Naming conventions — the permanent naming rules you must get right before creating anything
+🔹 Tagging — key-value metadata for cost allocation, filtering, and governance
+🔹 Resource Locks — CanNotDelete and ReadOnly locks to protect critical resources from accidents
+🔹 Hands-On: Create a resource group with tags and a lock — and test that the lock works
+🔹 Azure Cloud Shell — the browser-based terminal pre-authenticated with your Azure identity
+🔹 Hands-On: Run Azure CLI commands directly from the portal
+🔹 Azure Pricing Calculator — estimate costs before creating any resource
+🔹 Hands-On: Build a VM cost estimate and export it
+🔹 Service Level Agreements (SLAs) — what 99.9% vs 99.99% means in real downtime hours
+🔹 Composite SLAs — why adding more services lowers your combined availability
+🔹 Azure Advisor — free 5-pillar recommendations across Cost, Security, Reliability, Performance, and Operations
+🔹 Azure Service Health — 3 layers: Azure Status, Service Health, and Resource Health
+🔹 Hands-On: Set a Service Health alert to email you during outages
+🔹 Azure Marketplace — pre-built OS images and third-party solutions
+🔹 Portal Dashboards — pin resources and charts to a custom view
