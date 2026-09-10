@@ -1,0 +1,31 @@
+git add Azure4.txt
+git commit -m "File Added"
+git push origin main
+
+-----------------------------------------------------------------------------
+Part 4:
+Link :
+https://youtu.be/Kr7EssBFNPU?si=4oIXu-LHzUtVvdRv
+
+*Topics Covered*:
+
+🔹 Static website vs Dynamic website — what the difference actually means in practice
+🔹 Frontend, Backend, and Database — plain English definitions with real examples
+🔹 1-Tier Architecture — everything on one machine, and why it doesn't scale
+🔹 2-Tier Architecture — client-server model, and its limitations
+🔹 3-Tier Architecture — the industry standard: Presentation, Application, and Data layers separated
+🔹 Why 3-Tier scales independently — scale your app layer without touching your database
+🔹 What a web server is — it listens on port 80 and responds to HTTP requests
+🔹 IIS (Internet Information Services) — Microsoft's web server for Windows
+🔹 Nginx — the web server powering Netflix, Cloudflare, and Dropbox on Linux
+🔹 Creating a Windows Server VM in Azure and connecting via RDP
+🔹 Installing IIS through Server Manager — Add Roles and Features walkthrough
+🔹 Opening port 80 in the Azure Network Security Group (NSG)
+🔹 Hosting a custom HTML page on IIS from C:\inetpub\wwwroot
+🔹 Creating an Ubuntu VM in Azure and connecting via SSH
+🔹 Installing Nginx with two commands and serving a page instantly
+🔹 Replacing the default Nginx page with your own HTML in /var/www/html
+🔹 Visiting both VMs' public IPs in the browser — your live website on Azure
+🔹 The capstone connection — how this leads to a full 3-Tier app on Azure
+
+-----------------------------------------------------------------------------------
