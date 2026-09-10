@@ -1,0 +1,31 @@
+git add Azure3.txt
+git commit -m "File Added"
+git push origin main
+
+---------------------------------------------
+Linux Link :
+https://youtube.com/playlist?list=PLPLf8iqkntdMew0yP5Ad9pbaZki0Wf-2w&si=NU7uu1WxmnNPSBEO  ==>linx
+
+Part 3 :
+Link : 
+https://youtu.be/ME2q5Rl8bKI?si=T8489HfxzuB37I6F
+
+*Topics Covered*:
+
+🔹 What is an Azure Virtual Machine? Renting a computer in Microsoft's data center explained from scratch
+🔹 VM Series and Sizes — B-series (burstable), D-series (general purpose), F-series (compute), E-series (memory)
+🔹 How to read a VM size name — Standard_D2s_v3 decoded
+🔹 VM Pricing Models — Pay-as-you-go vs Reserved Instances (1yr/3yr) vs Spot VMs
+🔹 OS Options and the Azure Marketplace — Ubuntu, Windows Server, RHEL, and third-party images
+🔹 Managed Disks — OS Disk vs Data Disk vs Temporary Disk, and the four performance tiers
+🔹 Public IP Addresses — Dynamic vs Static, and DNS labels
+🔹 Network Security Groups (NSG) — the VM's firewall, inbound rules, default deny-all
+🔹 Full VM creation wizard walkthrough — all 7 tabs explained step by step
+🔹 SSH key authentication — what it is and why it's more secure than a password
+🔹 Auto-shutdown — enable this on every VM to avoid overnight billing
+🔹 Boot diagnostics — how to debug a VM that won't start
+🔹 Connecting to a Linux VM via SSH — from Windows, macOS, and Azure Cloud Shell
+🔹 Creating a Windows Server VM and connecting via RDP from your Windows machine
+🔹 Stop vs Deallocate — the most common beginner mistake that leads to surprise charges
+
+----------------------
