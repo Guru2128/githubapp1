@@ -2,7 +2,7 @@ git add Azure3.txt
 git commit -m "File Added"
 git push origin main
 
----------------------------------------------
+------------------------------------------------------------------------
 Linux Link :
 https://youtube.com/playlist?list=PLPLf8iqkntdMew0yP5Ad9pbaZki0Wf-2w&si=NU7uu1WxmnNPSBEO  ==>linx
 
