@@ -1,0 +1,33 @@
+git add Azure6.txt
+git commit -m "File Added"
+git push origin main
+
+--------------------------------------------------------------------------------------------------
+Part 5 Is an paid version
+Part 6:
+Link :
+https://youtu.be/NuJLnJcz2zs?si=3F6iTZ_6oA-nR1OB
+
+🔹 IaaS vs PaaS — what changes when you move from a VM to App Service
+🔹 What Azure App Service manages for you — OS, web server, runtime, patches, load balancing
+🔹 When to use App Service vs a VM — the honest trade-off
+🔹 App Service Plans — Free F1, Basic B1–B3, Standard S1–S3, Premium P1v3, Isolated
+🔹 Free F1 limitations — 60 CPU min/day, no custom domain, app sleeps after 20 min idle
+🔹 Multiple apps on one plan — how apps share compute and why it saves cost
+🔹 Supported runtimes — Node.js, Python, .NET, Java, PHP, Ruby — no installation needed
+🔹 Deployment methods overview — ZIP Deploy, GitHub Actions, Azure DevOps, Local Git
+🔹 Demo — Create an App Service Plan and Web App in the portal
+🔹 Demo — Deploy a real Node.js app via ZIP Deploy through the Kudu console
+🔹 Why the ZIP must contain files at root level — not inside a subfolder
+🔹 Application Settings — inject environment variables at runtime without touching code
+🔹 Demo — Add APP_NAME as an application setting and watch the page update instantly
+🔹 Why secrets must never be hardcoded — git history exposure explained
+🔹 Custom domains — how to bind your own domain and prove ownership via DNS
+🔹 Managed SSL certificates — App Service issues and auto-renews free HTTPS for custom domains
+🔹 Deployment slots — staging environment on the same plan with its own URL
+🔹 Zero-downtime swap — Azure warms up staging before flipping it to production
+🔹 Instant rollback — one swap click reverts production to the previous version
+🔹 Demo — Create a staging slot, deploy v2, swap to production, roll back (💳 Paid Demo)
+🔹 Manual scale — drag the instance slider on Basic plan and above
+🔹 Auto-scale rules — CPU threshold triggers that add or remove instances automatically
+🔹 Demo — Configure scale-out and scale-in rules on Standard plan (💳 Paid Demo)
