@@ -1,0 +1,32 @@
+git add Azure7.txt
+git commit -m "File Added"
+git push origin main
+
+--------------------------------------------------------------------------------------------------
+Part 7: 
+
+Link : https://youtu.be/sjEtqQ_Zh2k?si=iIW1noBgh1IkM1In
+
+🔹 What is an Azure Storage Account — one account, four storage services, one bill
+🔹 The unified namespace — why the account name must be globally unique
+🔹 Performance tiers — Standard (HDD) vs Premium (SSD) and when to use each
+🔹 Replication options — LRS, ZRS, GRS, GZRS and what failure each protects against
+🔹 What is Blob Storage — Binary Large Objects, object storage for any unstructured data
+🔹 Containers and blobs — the two-level structure and how blob URLs are formed
+🔹 Public access levels — Private, Blob, and Container — what each allows
+🔹 Three blob types — Block Blob (general files), Append Blob (logs), Page Blob (VM disks)
+🔹 Why a private blob URL returns an error in the browser — and why that's correct
+🔹 Access tiers — Hot, Cool, Cold, Archive — how storage cost and access cost trade off
+🔹 Archive tier rehydration — why it takes up to 15 hours and when never to archive data
+🔹 Lifecycle Management Policies — JSON rules that automatically transition or delete blobs based on age
+🔹 Demo — Create a lifecycle rule: Cool at 30 days → Archive at 90 days → Delete at 365 days
+🔹 What is a Shared Access Signature (SAS) — time-limited, permission-scoped URLs
+🔹 SAS parameters — expiry, resource type, permissions, cryptographic signature
+🔹 What happens when you tamper with a SAS URL — AuthenticationFailed explained
+🔹 Demo — Generate a read-only SAS URL for a blob and test it in the browser
+🔹 Static Website Hosting — serve HTML, CSS, and JavaScript directly from a blob container with no server
+🔹 The $web container — how Azure creates and serves the public endpoint automatically
+🔹 Blob Versioning — how Azure automatically saves a copy every time a blob is overwritten
+🔹 Soft Delete vs Versioning — what each protects against and why you should enable both
+
+-------------------------------------------------------------------------------------------------------
