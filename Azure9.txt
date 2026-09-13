@@ -34,4 +34,4 @@ https://www.davidc.net/sites/default/subnets/subnets.html ->vnet with subnet
 🔹 The "256 minus the mask" trick — calculate any CIDR range instantly
 🔹 Demo — Watch the Azure Portal calculate CIDR address counts live
 🔹 What's coming next — Azure Virtual Network, subnets, and NSGs
----------------------------------------------------------------------
+------------------------------------------------------------------------------
