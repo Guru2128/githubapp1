@@ -1,0 +1,36 @@
+git add Azure9.txt
+git commit -m "File Added"
+git push origin main
+
+--------------------------------------------------------------------------------
+Part : 9
+ *Topics Covered*:
+Link :
+https://youtu.be/h5k1nHNM1Xk?si=Loq4FPpcDYNdGMSh
+
+Refernce Link :
+https://www.binaryhexconverter.com/decimal-to-binary-converter
+https://www.ipaddressguide.com/cidr
+https://www.davidc.net/sites/default/subnets/subnets.html ->vnet with subnet 
+
+🔹 What an IP address is and why every device on a network needs one
+🔹 IPv4 format — dotted decimal notation explained
+🔹 Bits and bytes — the binary language behind every IP address
+🔹 Binary to decimal conversion — step-by-step with worked examples
+🔹 Why every IP octet maxes out at 255 (2⁸ = 256 values)
+🔹 The full 32-bit structure of an IPv4 address, put together
+🔹 Public IP vs Private IP — what each is for and how they differ
+🔹 The three RFC 1918 private IP ranges every Azure VNet uses
+🔹 NAT (Network Address Translation) — how private IPs reach the internet
+🔹 Demo — View the public and private IP addresses on an existing Azure VM
+🔹 IP address classes (A, B, C, D, E) — classful addressing explained
+🔹 Why classful addressing wasted addresses — and led to IPv4 exhaustion
+🔹 Why classes still matter today — the private IP ranges are their direct descendants
+🔹 CIDR notation explained — what `/16`, `/24`, and `/28` actually mean
+🔹 CIDR and subnet masks — two ways of writing the same thing
+🔹 The address-count formula: 2^(32 − prefix length)
+🔹 Network address, broadcast address, and usable host range
+🔹 The "256 minus the mask" trick — calculate any CIDR range instantly
+🔹 Demo — Watch the Azure Portal calculate CIDR address counts live
+🔹 What's coming next — Azure Virtual Network, subnets, and NSGs
+---------------------------------------------------------------------
