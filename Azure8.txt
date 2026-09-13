@@ -1,0 +1,24 @@
+git add Azure8.txt
+git commit -m "File Added"
+git push origin main
+
+--------------------------------------------------------------------------------
+Part 8 :
+
+Link  : https://youtu.be/fYt-Cvun8dw?si=mJbxU-quBexIZrGS
+
+🔹 Azure Files — fully managed cloud file shares accessible via SMB, NFS, and HTTPS
+🔹 Azure Files vs Blob Storage — directory structure, mounting as a drive, and when to use each
+🔹 File Share Tiers — Transaction Optimized, Hot, Cool, and Premium — and why the tier choice is permanent
+🔹 File Share Snapshots — storage-efficient, point-in-time recovery copies
+🔹 Soft Delete for File Shares — recover an entire deleted share within a grace period
+🔹 What is Queue Storage — decoupling application components with messages
+🔹 Visibility timeout explained — how Queue Storage prevents double-processing
+🔹 What is Table Storage — Azure's schemaless NoSQL key-value store
+🔹 PartitionKey and RowKey — the composite primary key and how it drives query performance
+🔹 Azure File Sync — sync on-premises Windows file servers with Azure Files
+🔹 Cloud Tiering — keep hot files local, automatically tier cold files to Azure
+🔹 Storage Firewall — restrict storage account access to specific networks and IP ranges
+🔹 AzCopy — the command-line tool for bulk data migration (an AZ-104 exam staple)
+🔹 Immutable Storage (WORM) — time-based retention and legal hold for compliance
+🔹 Azure Storage Explorer — manage Blob, Files, Queue, and Table from one desktop app
