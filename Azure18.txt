@@ -1,0 +1,25 @@
+
+git add Azure18.txt
+git commit -m "File Added"
+git push origin main
+
+
+----------------------------------------------------
+Link : https://youtu.be/byS2GFZJMU4?si=Cr6IJgWzQH6ZLfdq
+
+🎯 *Topics Covered*:
+
+🔹 Why secrets in code, config files and app settings all fail the same way
+🔹 Secrets vs keys vs certificates, and why a key can never be read back
+🔹 The two create-blade settings you can never change
+🔹 RBAC vs access policies: the February 2026 default and the 27 Feb 2027 API deadline
+🔹 Secret versions, expiry dates and the disable switch
+🔹 One certificate = three objects, and the access trap that creates
+🔹 Standard vs Premium vs Managed HSM, and HTTP 429 throttling
+🔹 Proof: Key Vault Contributor cannot read a single secret
+🔹 The Contributor back door, and Key Vault Data Access Administrator (ABAC)
+🔹 Demo: App Service + managed identity + Key Vault reference, zero credentials
+🔹 Firewall, trusted services, private endpoints, and what breaks references
+🔹 Soft delete and purge protection: delete, recover, purge
+🔹 Audit logs with KQL, SecretNearExpiry events, and rotation
+🔹 Defender for Cloud Secure Score and a full interview keyword table
