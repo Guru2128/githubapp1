@@ -1,6 +1,6 @@
 
 git add Azure18.txt
-git commit -m "File Added"
+git commit -m "File updated"
 git push origin main
 
 
@@ -23,3 +23,5 @@ Link : https://youtu.be/byS2GFZJMU4?si=Cr6IJgWzQH6ZLfdq
 🔹 Soft delete and purge protection: delete, recover, purge
 🔹 Audit logs with KQL, SecretNearExpiry events, and rotation
 🔹 Defender for Cloud Secure Score and a full interview keyword table
+
+-------------------------------------------------------------------------------------------------------
