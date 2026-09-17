@@ -3,7 +3,8 @@ git add Azure12.txt
 git commit -m "File Added"
 git push origin main
 
-------------------------------
+---------------------------------------------------------------------------------------------------
+
 🎯 *Topics Covered*:
 
 🔹 Why a single VM is always a single point of failure — and the three Azure services that solve it
