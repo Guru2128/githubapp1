@@ -1,0 +1,24 @@
+
+git add Azure12.txt
+git commit -m "File Added"
+git push origin main
+
+------------------------------
+🎯 *Topics Covered*:
+
+🔹 Why a single VM is always a single point of failure — and the three Azure services that solve it
+🔹 Azure Load Balancer explained — Layer 4 (TCP/UDP) traffic distribution using a 5-tuple hash
+🔹 The four building blocks: frontend IP, backend pool, health probe, and load balancing rule
+🔹 Inbound NAT rules — reaching a specific backend VM directly without going through the pool
+🔹 Public vs Internal Load Balancer — when to use each, and how to tell them apart on the exam
+🔹 Session persistence — None vs Client IP affinity, and when it matters for stateful apps
+🔹 VM Scale Sets (VMSS) explained — managing a fleet of identical VMs as one resource
+🔹 Uniform vs Flexible orchestration modes — which to choose and why
+🔹 Autoscale — building scale-out and scale-in rules driven by CPU metrics
+🔹 Application Gateway explained — Layer 7 (HTTP/HTTPS) routing that understands URLs, paths, and headers
+🔹 Listeners, routing rules, backend pools, and URL path maps — how they connect
+🔹 Path-based routing — sending /api/* to one backend and /images/* to another behind a single IP
+🔹 Multi-site hosting and SSL termination — why Application Gateway replaces a separate reverse proxy
+🔹 Load Balancer vs Application Gateway — the Layer 4 vs Layer 7 decision and how AZ-104/AZ-305 frames it
+
+-------------------------------------------------------------------------------------
