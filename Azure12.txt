@@ -4,6 +4,9 @@ git commit -m "File Added"
 git push origin main
 
 ---------------------------------------------------------------------------------------------------
+
+Link : https://youtu.be/qr6-7dqflFk?si=28MU-xT6uWxwKSSq
+
  *Topics Covered*:
 
 🔹 Why a single VM is always a single point of failure — and the three Azure services that solve it
