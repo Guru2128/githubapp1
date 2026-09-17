@@ -4,8 +4,7 @@ git commit -m "File Added"
 git push origin main
 
 ---------------------------------------------------------------------------------------------------
-
-🎯 *Topics Covered*:
+ *Topics Covered*:
 
 🔹 Why a single VM is always a single point of failure — and the three Azure services that solve it
 🔹 Azure Load Balancer explained — Layer 4 (TCP/UDP) traffic distribution using a 5-tuple hash
