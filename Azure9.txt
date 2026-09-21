@@ -2,7 +2,6 @@ git add Azure9.txt
 git commit -m "File Added"
 git push origin main
 
-
 -----------------------------------------------------------------------------------------------
 Part : 9
  *Topics Covered*:
