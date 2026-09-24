@@ -2,10 +2,40 @@ New File Added3.
 New file.
 18/8/26 changes.
 
-git add test3.txt
-git commit -m "File Updated"
-git push origin main
 
 -------------------------------------------------------------------------------------------------
 3. Inheritance – One class can acquire the properties and methods of another class. 
 It helps with code reusability.
+
+One important rule: C# does not support multiple inheritance of classes. 
+
+// Parent / Base class
+class Animal
+{
+    public void Eat()
+    {
+        Console.WriteLine("Animal is eating");
+    }
+}
+
+// Child / Derived class
+class Dog : Animal
+{
+    public void Bark()
+    {
+        Console.WriteLine("Dog is barking");
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Dog dog = new Dog();
+
+        dog.Eat();   // Inherited from Animal
+        dog.Bark();  // Defined in Dog
+    }
+}
+
+--------------------------------
