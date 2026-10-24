@@ -31,3 +31,5 @@ Link : https://youtu.be/GmVVlBb66Dc?si=lebqzifRBQKJLQ0e
 🔹 Reader / Contributor / Owner / User Access Administrator, properly distinguished
 🔹 *Control plane vs data plane* — the demo that surprises everyone: Contributor cannot read a blob
 🔹 RBAC vs Azure Policy — who can act, versus what is allowed to exist
+
+--------------------------------------------------
