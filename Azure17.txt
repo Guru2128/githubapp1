@@ -1,0 +1,33 @@
+git add Azure17.txt
+git commit -m "File updated"
+git push origin main
+
+------------------------------------------------------------------------------------------------
+Part 17 :
+Link : https://youtu.be/GmVVlBb66Dc?si=lebqzifRBQKJLQ0e
+
+ *Topics Covered*:
+
+🔹 The two planes — identity (Entra ID) vs resources (ARM) — the one idea that makes Azure permissions stop being confusing
+🔹 Tenant, directory, subscription — and why moving a subscription to another tenant wipes every role assignment
+🔹 Why Microsoft Entra ID is NOT "Active Directory in the cloud"
+🔹 Demo — create a user, sign in as her in a second browser, and discover she can see absolutely nothing
+🔹 Groups — security vs Microsoft 365, and why you never assign permissions to a person
+🔹 Self-service password reset, free for cloud users
+🔹 App registration vs service principal vs enterprise application — one object, three views
+🔹 Client secrets vs certificates vs federated credentials
+🔹 Delegated vs application permissions — and why application permissions need admin consent
+🔹 Demo — register an app, create a secret, sign in with the CLI: authenticated but completely unauthorised
+🔹 Managed identities — no readable credential, nothing to rotate, and completely free
+🔹 System-assigned vs user-assigned — the interview answer for which to pick
+🔹 B2B guests, and hybrid identity: PHS vs PTA vs Federation
+🔹 *Entra roles vs Azure roles* — why a Global Administrator can't see a single virtual machine
+🔹 The elevate access toggle — the break-glass door between the two systems
+🔹 The three-part sentence — security principal + role definition + scope = role assignment
+🔹 Scope and inheritance — management group → subscription → resource group → resource
+🔹 Demo — one role assignment fills Priya's empty portal, and Check access explains why
+🔹 Role definition JSON — Actions, NotActions, DataActions, AssignableScopes
+🔹 The arithmetic that proves *Contributor = Owner minus the ability to grant access*
+🔹 Reader / Contributor / Owner / User Access Administrator, properly distinguished
+🔹 *Control plane vs data plane* — the demo that surprises everyone: Contributor cannot read a blob
+🔹 RBAC vs Azure Policy — who can act, versus what is allowed to exist
